@@ -95,3 +95,13 @@ KVO is what allows views to automatically refresh themselves from the model when
 NSURL *path = [NSURL fileURLWithPath:@"/Users/"];
 NSURL *path = [NSURL URLWithString:@"file:///Users/"];
 
+# Core Principle
+Users expect...
+
+1. Simple
+2. Immersive - Full-screen apps, consistent UI, accessory views. JavaScript API for full-screen app for Safari.
+3. Fast
+4. Secure - Sandbox, entitlement
+5. Connected - TweetSheet
+
+On-demand callback to do just-in-time saving.
