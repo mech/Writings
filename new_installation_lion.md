@@ -30,3 +30,11 @@ symlink sphinx bin_path/searchd_binary_name/indexer_binary_name
 
 sudo ln -s /usr/local/bin/indexer /usr/bin/indexer
 
+## Jobline DB migration
+
+1. Change to /tmp/mysql.sock
+2. Download latest backup, and remove scheme migration insert, remove c-stanleyp@avanade.com
+3. mysql -uroot -proot jobline_dev < xxx.sql
+4. Candidate.all.each {|ca| ca.email="sample_#{ca.email}"; ca.save}
+5. Employer.all.each {|emp| emp.email="jlxyz_#{emp.email}"; emp.save}
+6. 
