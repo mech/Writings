@@ -11,6 +11,11 @@ If you encounter ASCII error on installing cucumber, do this first:
 
 export LC_CTYPE=en_US.UTF-8
 
+Success. You can now start the database server using:
+
+    postgres -D /usr/local/var/postgres
+or
+    pg_ctl -D /usr/local/var/postgres -l logfile start
 
 createuser -P postgres
 
