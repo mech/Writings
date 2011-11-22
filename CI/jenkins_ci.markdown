@@ -1,5 +1,9 @@
 # Jenkins
 
+http://blog.8thlight.com/lihsuan-lung/2011/03/02/jenkins-rvm-and-selenium.html
+
+
+
 The default Mac OS X installation put Jenkins Launch Agent at /Library/LaunchAgents/org.jenkins-ci.plist with a "daemon" username and group!
 
 This is fine except that the home directory for "daemon" is /var/root, the same as "root" user.
