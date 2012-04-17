@@ -1,5 +1,20 @@
 ## New Installation for Lion
 
+See http://blog.wyeworks.com/2012/4/13/my-osx-rails-installation-using-homebrew-and-rbenv-step-by-step
+
+LANG="en_US.UTF-8" 
+LC_COLLATE="en_US.UTF-8" 
+LC_CTYPE="en_US.UTF-8" 
+LC_MESSAGES="en_US.UTF-8" 
+LC_MONETARY="en_US.UTF-8" 
+LC_NUMERIC="en_US.UTF-8" 
+LC_TIME="en_US.UTF-8" 
+LC_ALL=
+
+$ export LC_ALL=en_US.UTF-8
+$ export LANG=en_US.UTF-8
+
+
 1. Install Growl first. Take Mono.growlStyle.
 2. Install XCode with iPhone SDK. The free one has iOS 4.3. Usually with git installed, but older version.
 3. Install Homebrew, see its wiki, but looks like this
