@@ -25,6 +25,7 @@ dropdb postgres_demo_test
 
 gem "foo" "~> 2.3" means ">= 2.3" and "< 3.0"
 
+## Create user
 
 
 ### dscl
@@ -46,15 +47,21 @@ When rake db:create, encountered error
 
 createdb -Opostgres -Eutf8 -T template0 postgres_demo_test
 
+createdb -Oroot -Eutf8 dbname_dev
+
 
 ### Command
 
 psql -U postgres
 
-\c [DBNAME]		connect to database
-\l 				list all database
-\du				list roles
-\dt				list tables
+\c [DBNAME]				connect to database
+\l 								list all database
+\du								list roles
+\dt								list tables
+\d [TABLE_NAME]
+\?
+\h
+\h 								SELECT Help on select command
 
 
 
