@@ -36,9 +36,14 @@ Content
 Security
 --------
 - http://sqlmap.org/
+- http://blog.siyelo.com/rails-deployment-audit
 
 UX
 --
 - http://ux.stackexchange.com/
 - http://52weeksofux.com/tagged/week_1
 - http://www.flickr.com/groups/ilovewireframes/pool/?view=lg
+
+Client-side
+-----------
+- http://openmymind.net/2012/5/30/Client-Side-vs-Server-Side-Rendering/
