@@ -43,7 +43,16 @@ UX
 - http://ux.stackexchange.com/
 - http://52weeksofux.com/tagged/week_1
 - http://www.flickr.com/groups/ilovewireframes/pool/?view=lg
+- http://uxlx.23video.com/
+- http://johnnyholland.org/
+- http://www.andersramsay.com/
 
 Client-side
 -----------
 - http://openmymind.net/2012/5/30/Client-Side-vs-Server-Side-Rendering/
+- http://calendar.perfplanet.com/2011/lazy-evaluation-of-commonjs-modules/
+
+
+http://www.setfiremedia.com/blog/7-top-tips-for-coding-with-currency
+
+
